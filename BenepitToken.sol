@@ -1,4 +1,4 @@
-pragma solidity ^0.4.24;
+pragma solidity 0.4.24;
 
 
 /**
@@ -64,6 +64,7 @@ library SafeMath {
 }
 
 
+
 /**
  * @title Basic token
  * @dev Basic version of StandardToken, with no allowances.
@@ -109,6 +110,7 @@ contract BasicToken is ERC20Basic {
 }
 
 
+
 /**
  * @title ERC20 interface
  * @dev see https://github.com/ethereum/EIPs/issues/20
@@ -127,6 +129,7 @@ contract ERC20 is ERC20Basic {
     uint256 value
   );
 }
+
 
 
 /**
@@ -247,6 +250,7 @@ contract StandardToken is ERC20, BasicToken {
   }
 
 }
+
 
 
 /**
